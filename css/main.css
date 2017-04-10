@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'source code pro';
+    src: url('font/sourcecodepro-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'black jack';
+    src: url('font/blackjack-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo';
+    src: url('font/exo-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+	background-image: url("../img/memphis.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+	width: 100%;
+
+}
+img.personal-img{
+	height: auto;
+	width: 400px;
+	float: right;
+}
+img.logo-img{
+	height: auto;
+	width: 150px;
+	float: left;
+}
+
+body{
+	background-color: #FFFFE0;
+}
+h1 {
+	text-align: top|left;
+}
+img.insta-img{
+	height: auto;
+	width: 35px;
+}
+img.twit-img{
+	height: auto;
+	width: 40px;
+}
+img.github-img{
+	height: auto;
+	width: 30px;
+}
+.social-wrap .social-icon{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 20px;
+	
+
+
+}
+.social-icon img {
+	margin: 0 auto 20px auto;
+}
+
+.social-icon a {
+	background-color: #f53240;
+	padding: 10px 25px;
+	color: #FFFFE0;
+	text-decoration: none;
+	display: inline-block;
+}
+img.snapchat-img{
+	height: auto;
+	width: 50px;
+}
+p {
+	font-family: 'source code pro', sans-serif;
+	color: #00BFFF;
+	padding: 30px;
+
+}
+h1 {
+	font-family: 'black jack', sans-serif;
+	color:  #fff;
+	font-size:70px;
+}
+h2, h3, h4{
+	font-family:'exo', sans-serif;
+	color:#00fa9a;
+
+}
+img.p1-img{
+	max-width: 250px;
+	margin: 20px auto;
+	padding: 40px;
+
+}
+.navbar-inverse{
+	background-color:#FFFFE0;
+	border-color:#FFFFE0;
+
+}
+.navbar-default .navbar-nav > li > a {
+    color: #00BFFF;
+}
